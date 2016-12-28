@@ -1,0 +1,51 @@
+2
+
+VonNeumann
+VonNeumann hires Tanenbaum
+VonNeumann hires Dijkstra
+Tanenbaum hires Stallings
+Tanenbaum hires Silberschatz
+Stallings hires Knuth
+Stallings hires Hamming
+Stallings hires Huffman
+print
+VonNeumann hires Shannon
+fire Tanenbaum
+print
+fire Silberschatz
+fire VonNeumann
+print
+
+VonNeumann
+VonNeumann hires Tanenbaum
+VonNeumann hires Dijkstra
+Tanenbaum hires Stallings
+Tanenbaum hires Silberschatz
+Stallings hires Knuth
+Stallings hires Hamming
+Stallings hires Huffman
+print
+VonNeumann hires Shannon
+fire Tanenbaum
+print
+fire Silberschatz
+fire VonNeumann
+fire Shannon
+fire Huffman
+fire Stallings
+fire Knuth
+fire Hamming
+print
+Dijkstra hires VonNeumann
+Dijkstra hires Stallings
+Dijkstra hires Hamming
+Stallings hires Knuth
+Stallings hires Silberschatz
+print
+fire Stallings
+print
+fire Hamming
+fire Silberschatz
+fire Knuth
+fire Dijkstra
+print
