@@ -10,6 +10,6 @@ void test_from_char() {
 }
 
 int main(int argc, char *argv[]) {
-    test1();
+    test_from_char();
     return 0;
 }
