@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "cstdio": "cpp",
+        "deque": "cpp",
+        "map": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "__locale": "c"
+    }
+}
