@@ -1,22 +1,27 @@
-merge(source, result, begin, middle, end)
-	left = begin, right = middle + 1
+merge(A, begin, middle, end)
+	tmp = newArray(A.length)
+	left = begin, right = middle
 	for i = begin until end
-		if left <= middle and (source[left] <= source[right] or right >= end)
-			result[i] = source[left]
+		if left <= middle and (A[left] <= A[right] or right >= end)
+			tmp[i] = A[left]
 			left++
 		else
-			result[i] = source[right]
+			tmp[i] = A[right]
 			right++
 
-split(source, result, begin, end)
-	if end - begin < 2
+	// copy sorted subarray back to source
+	for i = begin until end
+		A[i] = tmp[i]
+
+split(A, begin, end)
+	len = end - begin
+	if len < 2
 		return
-	
-	middle = (end + begin) / 2
-	split(source, result, begin, middle + 1)
-	split(source, result, middle + 1, end)
-	merge(source, result, begin, middle, end)
+
+	middle = begin + len / 2
+	split(A, begin, middle + 1)
+	split(A, middle + 1, end)
+	merge(A, begin, middle, end)
 
 mergesort(A)
-	source = copyArray(A)
-	split(source, A, 0, A.length)
+	split(A, 0, A.length)
