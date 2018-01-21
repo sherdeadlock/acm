@@ -1,0 +1,22 @@
+merge(source, result, begin, middle, end)
+	left = begin, right = middle + 1
+	for i = begin until end
+		if left <= middle and (source[left] <= source[right] or right >= end)
+			result[i] = source[left]
+			left++
+		else
+			result[i] = source[right]
+			right++
+
+split(source, result, begin, end)
+	if end - begin < 2
+		return
+	
+	middle = (end + begin) / 2
+	split(source, result, begin, middle + 1)
+	split(source, result, middle + 1, end)
+	merge(source, result, begin, middle, end)
+
+mergesort(A)
+	source = copyArray(A)
+	split(source, A, 0, A.length)
