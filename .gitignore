@@ -82,3 +82,5 @@ buildNumber.properties
 .mvn/timing.properties
 
 a.out
+
+.DS_Store
