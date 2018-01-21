@@ -1,18 +1,18 @@
 # acm
-- [UVa](https://uva.onlinejudge.org/)
-- [Java Sample](https://uva.onlinejudge.org/data/p100.java.html)
-    - java submit 時, class name 必須是 Main
+
+* [UVa](https://uva.onlinejudge.org/)
+* [Java Sample](https://uva.onlinejudge.org/data/p100.java.html)
+    * java submit 時, class name 必須是 Main
 * http://poj.org/
 * http://acm.hdu.edu.cn/
 * http://zerojudge.tw/
+* [Lucky貓的 UVA（ACM）園地](http://luckycat.kshs.kh.edu.tw/)
+    * star1 73
+    * star2 219
+    * star3 321
+    * star4 54
+* [uHunt](http://uhunt.felix-halim.net/) Next Problems to Solve 可以分等級選題目
 
-# grading
-- [Lucky貓的 UVA（ACM）園地](http://luckycat.kshs.kh.edu.tw/)
-  - star1 73
-  - star2 219
-  - star3 321
-  - star4 54
-- [uHunt](http://uhunt.felix-halim.net/) Next Problems to Solve 可以分等級選題目
 
 # algorithm
 * http://www.csie.ntnu.edu.tw/~u91029/index.html
@@ -30,28 +30,6 @@
 * http://vivid.name/tech/aoapc-book.html
 * https://github.com/klb3713/aoapc-book
 
-
-
-# 提升程式設計的資料結構力
-
-## 8 tree
-
-- [x] 8.1.1 UVa 2525 Nearest Common Ancestors, 建tree, depth, 找共同parent
-    * Lowest Common Ancestor(LCA)
-- [ ] 8.1.2 UVa 3048
-- [ ] 8.2.1 POJ 1703
-- [ ] 8.2.2 POJ 1988
-- [ ] 8.3.1 POJ 3321
-
-## 9 binary tree
-
-- [ ] 9.1.1 UVa 3821
-- [ ] 9.2.1 POJ 2499
-- [ ] 9.3.1 UVa 536
-
-# 程式設計的解題策略-活用資料結構與演算法
-- [k-th Number](http://poj.org/problem?id=2104)
-- [Super Mario](http://acm.hdu.edu.cn/showproblem.php?pid=4417)
 
 # result
 - Accepted (AC):
