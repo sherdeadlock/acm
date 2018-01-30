@@ -5,7 +5,7 @@ binarySearch(A, x)
 	low = 0
 	high = A.length - 1
 	
-	while low < high
+	while low <= high
 		mid = (low + height) / 2
 		if x > A[mid]
 			low = mid + 1
