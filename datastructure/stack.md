@@ -13,7 +13,7 @@ class Stack
 	push(data)
 		top++
 		if top > MAXN
-			throw "overflwo"
+			throw "overflow"
 		else
 			container[top] = data
 
